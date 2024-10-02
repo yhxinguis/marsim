@@ -1,9 +1,9 @@
-#Licensing
+# Licensing
 
 This Marine Simulator is licensed under the Apache License 2.0.
 
 
-#Project License
+# Project License
 
 Copyright 2024 Yihan Xing
 
@@ -20,7 +20,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-#Third-Party Licenses
+# Third-Party Licenses
 
 Marine Simualtor Gazebo (marsim_gazebo) package was extensively modified and built on from clydemcqueen/bluerov2_ignition, which is also licensed under the MIT liense.
 
@@ -31,12 +31,12 @@ License: MIT
 https://github.com/clydemcqueen/bluerov2_ignition/tree/main
 
 
-#Contributing:
+# Contributing:
 
 Contributions to this project are welcome. By submitting a contribution, you agree to license your work under the same Apache License 2.0.
 
 
-#Commands:
+# Commands:
 
 ros2 launch marsim_gazebo empty_world.launch.py
 
