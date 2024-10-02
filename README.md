@@ -22,7 +22,7 @@ limitations under the License.
 
 # Third-Party Licenses
 
-Marine Simulator Gazebo (marsim_gazebo) package was extensively modified from and built on clydemcqueen/bluerov2_ignition, which is also licensed under the MIT liense.
+Marine Simulator Gazebo (marsim_gazebo) package was extensively modified from and built on clydemcqueen/bluerov2_ignition, which is licensed under the MIT liense.
 
 Copyright 2023 Clyde McQueen
 License: MIT
