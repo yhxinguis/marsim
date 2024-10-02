@@ -1,9 +1,9 @@
-Licensing:
+#Licensing
 
 This Marine Simulator is licensed under the Apache License 2.0.
 
 
-Project License:
+#Project License
 
 Copyright 2024 Yihan Xing
 
@@ -20,7 +20,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-Third-Party Licenses:
+#Third-Party Licenses
 
 Marine Simualtor Gazebo (marsim_gazebo) package was extensively modified and built on from clydemcqueen/bluerov2_ignition, which is also licensed under the MIT liense.
 
@@ -31,12 +31,12 @@ License: MIT
 https://github.com/clydemcqueen/bluerov2_ignition/tree/main
 
 
-Contributing:
+#Contributing:
 
 Contributions to this project are welcome. By submitting a contribution, you agree to license your work under the same Apache License 2.0.
 
 
-
+#Commands:
 
 ros2 launch marsim_gazebo empty_world.launch.py
 
@@ -44,8 +44,4 @@ ros2 launch marsim_gazebo spawn_bluerov2.launch.py
 
 ros2 launch marsim_gazebo start_bridge.launch.py
 
-# Command line based controller; not so responsive
-python3 src/marsim_gazebo/scripts/ros_keyboard_controller.py bluerov2
-
-# Key based controller; more responsive but cannot exit the runtime (needs to be resolved)
-python3 src/marsim_gazebo/scripts/ros_keyboard_controller_2.py bluerov2
+ros run marsim_gazebo ros_keyboard_controller bluerov2
