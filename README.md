@@ -17,6 +17,10 @@ Custom plugins and scripts for ocean current simulation, sensor data processing,
 Practical aspects of running the simulation, including launch procedures and visualization tools
 
 
+# Citation
+Xing, Y. (2024). yhxing/marsim. GitHub. https://github.com/yhxinguis/marsim 
+
+
 # Licensing
 
 The ROS2/Gazebo Marine Simulator is licensed under the Apache License 2.0.
