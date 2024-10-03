@@ -1,6 +1,6 @@
 # Licensing
 
-This Marine Simulator is licensed under the Apache License 2.0.
+The ROS2/Gazebo Marine Simulator is licensed under the Apache License 2.0.
 
 
 # Project License
