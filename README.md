@@ -1,3 +1,19 @@
+# ROS2/Gazebo Marine Simulator
+
+ROS2/Gazebo Marine Simulator (currently under development) aims to be a comprehensive marine simulation environment utilizing ROS2 (Robot Operating System 2) and Gazebo. 
+
+Read the marsim1.pdf file for information and details on the simulator. The pdf covers the fundamental components of the simulation stack, including Docker containerization, ROS2 architecture, and Gazebo simulation capabilities.
+
+Key topics include:
+
+Docker Engine setup for creating a consistent development environment
+ROS2 framework, its architecture, and comparison with ROS1
+Gazebo simulator and its integration with ROS2 via ros_gz_bridge
+Implementation of a BlueROV2 model in the ROS2/Gazebo environment
+Custom plugins and scripts for ocean current simulation, sensor data processing, and robot control
+Practical aspects of running the simulation, including launch procedures and visualization tools
+
+
 # Licensing
 
 The ROS2/Gazebo Marine Simulator is licensed under the Apache License 2.0.
