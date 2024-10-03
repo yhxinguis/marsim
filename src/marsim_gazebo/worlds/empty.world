@@ -62,7 +62,7 @@
       <seed>12345</seed>
     </plugin>
     <plugin
-      filename="gz-sim8-dvl-system"
+      filename="gz-sim-dvl-system"
       name="gz::sim::systems::DopplerVelocityLogSystem">
     </plugin>
 

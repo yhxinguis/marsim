@@ -84,7 +84,7 @@
         <geometry>
           <mesh>
             <!-- The absolute file path is used so that it can be loaded by both GZ and RVIZ2 -->
-            <uri>file:///home/marsim_sdf_ws/src/marsim_gazebo/models/bluerov2/meshes/bluerov2.dae</uri> 
+            <uri>file:///home/marsim_ws/src/marsim_gazebo/models/bluerov2/meshes/bluerov2.dae</uri> 
             <scale>0.025 0.025 0.025</scale>
           </mesh>
         </geometry>
@@ -271,7 +271,7 @@
         <geometry>
           <mesh>
             <!-- The absolute file path is used so that it can be loaded by both GZ and RVIZ2 -->
-            <uri>file:///home/marsim_sdf_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_ccw_prop.dae</uri> 
+            <uri>file:///home/marsim_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_ccw_prop.dae</uri> 
           </mesh>
         </geometry>
       </visual>
@@ -295,7 +295,7 @@
         <geometry>
           <mesh>
             <!-- The absolute file path is used so that it can be loaded by both GZ and RVIZ2 -->
-            <uri>file:///home/marsim_sdf_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_ccw_prop.dae</uri> 
+            <uri>file:///home/marsim_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_ccw_prop.dae</uri> 
           </mesh>
         </geometry>
       </visual>
@@ -319,7 +319,7 @@
         <geometry>
           <mesh>
             <!-- The absolute file path is used so that it can be loaded by both GZ and RVIZ2 -->
-            <uri>file:///home/marsim_sdf_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_cw_prop.dae</uri> 
+            <uri>file:///home/marsim_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_cw_prop.dae</uri> 
           </mesh>
         </geometry>
       </visual>
@@ -343,7 +343,7 @@
         <geometry>
           <mesh>
             <!-- The absolute file path is used so that it can be loaded by both GZ and RVIZ2 -->
-            <uri>file:///home/marsim_sdf_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_cw_prop.dae</uri> 
+            <uri>file:///home/marsim_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_cw_prop.dae</uri> 
           </mesh>
         </geometry>
       </visual>
@@ -367,7 +367,7 @@
         <geometry>
           <mesh>
             <!-- The absolute file path is used so that it can be loaded by both GZ and RVIZ2 -->
-            <uri>file:///home/marsim_sdf_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_ccw_prop.dae</uri> 
+            <uri>file:///home/marsim_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_ccw_prop.dae</uri> 
           </mesh>
         </geometry>
       </visual>
@@ -391,7 +391,7 @@
         <geometry>
           <mesh>
             <!-- The absolute file path is used so that it can be loaded by both GZ and RVIZ2 -->
-            <uri>file:///home/marsim_sdf_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_cw_prop.dae</uri> 
+            <uri>file:///home/marsim_ws/src/marsim_gazebo/models/bluerov2/meshes/t200_cw_prop.dae</uri> 
           </mesh>
         </geometry>
       </visual>
