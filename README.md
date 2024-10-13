@@ -1,4 +1,4 @@
-# ROS2/Gazebo Marine Simulator v1.1
+# ROS2-Gazebo Marine Simulator v1.1
 
 ROS2/Gazebo Marine Simulator (currently under development) aims to be a comprehensive marine simulation environment utilizing ROS2 (Robot Operating System 2) and Gazebo. 
 
