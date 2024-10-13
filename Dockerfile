@@ -32,17 +32,11 @@ RUN apt-get install -y gz-harmonic
 # ----- Install Gazebo/ROS pairing -----
 RUN apt update -y && apt-get install -y ros-jazzy-ros-gz
 
-# ----- Install ROS misc tools -----
+# ----- Install misc tools -----
 RUN apt update -y && apt install -y ros-jazzy-robot-localization
 
 # ----- Install PlotJuggler -----
 RUN apt update && apt install -y ros-jazzy-plotjuggler-ros
-
-# ----- Install misc Python tools -----
-RUN apt update && apt install -y python3-sklearn 
-
-RUN apt-get update && apt-get install -y python3-pip
-RUN pip3 install control --break-system-packages
 
 ENV GAZEBO_MODEL_PATH=/opt/ros/jazzy/share
 ENV GZ_SIM_RESOURCE_PATH=/opt/ros/jazzy/share

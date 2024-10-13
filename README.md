@@ -1,12 +1,20 @@
-# ROS2/Gazebo Marine Simulator v1.1
+# ROS2/Gazebo Marine Simulator
 
 ROS2/Gazebo Marine Simulator (currently under development) aims to be a comprehensive marine simulation environment utilizing ROS2 (Robot Operating System 2) and Gazebo. 
 
 
-# MARSIM1.1.pdf
+# MARSIM1.pdf
 
-Read the Marsim1.1.pdf file for information and details on the simulator. The pdf covers the fundamental components of the simulation stack, including Docker containerization, ROS2 architecture, and Gazebo simulation capabilities.
+Read the Marsim1.pdf file for information and details on the simulator. The pdf covers the fundamental components of the simulation stack, including Docker containerization, ROS2 architecture, and Gazebo simulation capabilities.
 
+Key topics include:
+
+Docker Engine setup for creating a consistent development environment
+ROS2 framework, its architecture, and comparison with ROS1
+Gazebo simulator and its integration with ROS2 via ros_gz_bridge
+Implementation of a BlueROV2 model in the ROS2/Gazebo environment
+Custom plugins and scripts for ocean current simulation, sensor data processing, and robot control
+Practical aspects of running the simulation, including launch procedures and visualization tools
 
 
 # Citation
@@ -51,19 +59,10 @@ Contributions to this project are welcome. By submitting a contribution, you agr
 
 # Commands:
 
-Launch the empty world:
 ros2 launch marsim_gazebo empty_world.launch.py
 
-Spawn a BlueROV2 robot:
 ros2 launch marsim_gazebo spawn_bluerov2.launch.py
 
-Start the ROS2-GZ bridge:
-ros2 launch marsim_gazebo start_bridge_bluerov2.launch.py
+ros2 launch marsim_gazebo start_bridge.launch.py
 
-Start the keyboard controller:
-ros2 run marsim_gazebo ros_keyboard_controller bluerov2
-
-Start the PID depth control:
-ros2 run marsim_control bluerov2_pid_pose_z_control.py --ros-args -p model_name:=my_rov -p Kp:=15.0 -p Ki:=0.02 -p Kd:=0.5 -p desired_z:=-30.0
-
-
+ros run marsim_gazebo ros_keyboard_controller bluerov2
